@@ -1,0 +1,106 @@
+.forma form {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 30px;
+    background-color: #f7f7f7b0;
+    border-radius: 8px;
+    display: block;
+}
+.forma-naslov{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 30px;
+    letter-spacing: 10px;
+    color: #1f3f6c;
+}
+.forma-grupa {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.forma-grupa label {
+    color: #1f3f6c;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+.forma-grupa  input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+  }
+.forma button[type="submit"] {
+    width: 100%;
+    letter-spacing: 4px;
+}
+.mreze {
+    display: flex;
+    justify-content: space-between;
+    width: 280px;
+    margin: 20px auto;
+    margin-bottom: 40px;
+}
+.mreze-naslov{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    color: #1f3f6c;
+    font-size: 17px;
+}
+.mreze a {
+    font-size: 20px;
+    color: #1f3f6c;
+    text-align: center;
+    text-decoration: none;
+    width: 40px;
+    height: 40px;
+    line-height: 50px;
+    border-radius: 50%;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mreze a:hover {
+    background-color: #2861b0e2;
+    color: #fff;
+    transition: all 0.5s ease;
+}
+.mreze-kontakt {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px auto;
+    width: 50%;
+    margin-bottom: 40px;
+}
+.mreze-kontakt a {
+    font-size: 20px;
+    color: #1f3f6c;
+    text-align: center;
+    text-decoration: none;
+    width: 40px;
+    height: 40px;
+    line-height: 50px;
+    border-radius: 50%;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mreze-kontakt a:hover {
+    background-color: #2861b0e2;
+    color: #fff;
+    transition: all 0.5s ease;
+}
+#email-error,
+#password-error,
+#confirm-password-error {
+  display: none;
+  color: red;
+}

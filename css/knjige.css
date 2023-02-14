@@ -1,0 +1,17 @@
+.dugmad{
+    text-align: center;
+    margin: 30px;
+}
+.dugmad a.active button{
+    background-color: #5D6D7E;
+}
+.dugmad .disabled{
+    text-align: center;
+    cursor: not-allowed;
+    border: 1px solid #999999;
+    background-color: #cccccc;
+    color: #666666;
+}
+.stara-cena-nema{
+    color: rgb(232, 229, 229);
+}
